@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM操作課題1</title>
+</head>
+<body>
+  <p id="message">ここにメッセージが表示されます</p>
+
+    <input type="button" value="クリックしてね" onclick="myfunc()">
+
+  <script>
+    // ここにJavaScriptを書く
+   var myfunc = function(){
+   var myp = document.getElementById("message");
+   myp.innerHTML = "こんばんは！";
+   }
+
+  </script>
+</body>
+</html>
